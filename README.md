@@ -1,4 +1,4 @@
-
+# Gray-Scott Model: Simulated Turing Patterns (Spots & Stripes)
 
 ## Overview
 
