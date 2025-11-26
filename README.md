@@ -4,12 +4,12 @@
 
 This Python project implements an interactive simulation of Turing patterns using the Gray-Scott reaction-diffusion model. The simulation generates striking spots, stripes, and mixed patterns by numerically solving the coupled partial differential equations (PDEs):
 
-[
-\frac{\partial u}{\partial t} = D_u \nabla^2 u - u v^2 + F(1-u)
-]
-[
-\frac{\partial v}{\partial t} = D_v \nabla^2 v + u v^2 - (F+k)v
-]
+\[
+\begin{aligned}
+\frac{\partial u}{\partial t} &= D_u \nabla^2 u - u v^2 + F(1-u),\\
+\frac{\partial v}{\partial t} &= D_v \nabla^2 v + u v^2 - (F+k)v
+\end{aligned}
+\]
 
 where:
 
