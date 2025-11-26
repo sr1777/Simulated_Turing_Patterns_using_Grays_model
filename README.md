@@ -1,0 +1,1 @@
+# Simulated_Turing_Patterns_using_Grays_model
